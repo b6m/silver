@@ -26,12 +26,7 @@ silver = commands.Bot(
     )
 
 
-keys = random.choice([
-    'Api - 1 ',
-    'api2',
-    'asoasoasd',
-    'qweo'
-])
+keys = 'api_key_for_weleak_info_.to'
 
 
 def admin(ctx):
