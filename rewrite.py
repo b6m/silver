@@ -43,7 +43,7 @@ async def send_embed(ctx, title, description):
 
 async def send_errmbed(ctx, title, description):
     embed = discord.Embed(title=title, description=description, color=discord.Color.red())
-    embed.set_footer(text=ctx.author.name, icon_url=ctx.author.avatar.url)
+    embed.set_footer(text=ctx.author.name)
     embed.set_thumbnail(url=thumbnail)
     await ctx.reply(embed=embed) 
 
